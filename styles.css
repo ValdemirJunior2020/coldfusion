@@ -1,0 +1,70 @@
+/* styles.css */
+
+/* Style the horizontal line */
+.my-4.mx-auto {
+    border-color: #ed0606;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    max-width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: inline-block;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.custom-button-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.custom-btn {
+    padding: 10px 20px;
+    background-color: #ff4400;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Your existing styles */
+.navbar-nav .nav-link {
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: #f8f9fa;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+/* Style the horizontal line */
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+/* Add your existing styles here */
+
+.certificate-img {
+    transition: transform 0.3s; /* Add a smooth transition effect */
+}
+
+.certificate-img:hover {
+    transform: scale(1.7); /* Zoom in by 20% on hover */
+}
+
